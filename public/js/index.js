@@ -8,9 +8,9 @@ var app = document.getElementById("app")
 app.appendChild(anElement)
 
 
-/*setTimeout(age, 3000)
+setTimeout(age, 3000)
 
 function age() {
-console.log("aging game")
-setTimeout(age, 3000)
-}*/
+  console.log("aging game")
+  setTimeout(age, 3000)
+}
