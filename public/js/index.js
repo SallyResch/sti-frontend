@@ -1,8 +1,8 @@
 console.log("Hello World");
 
 var anElement = document.getElementById("app")
-anElement.innerHTML = "Hello World"
-anElement.outerHTML = "Hello World"
+//anElement.innerHTML = "Hello World"
+//anElement.outerHTML = "Hello World"
 
 var app = document.getElementById("app")
 app.appendChild(anElement)
