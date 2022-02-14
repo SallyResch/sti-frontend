@@ -7,13 +7,13 @@ function buttonClick() {
   anElement.outerHTML = "<strong>Sally</strong>"
 }
 
-/*var app = document.getElementById("app")
-app.appendChild(anElement)*/
+var app = document.getElementById("app")
+app.appendChild(anElement)
 
 
-/*setTimeout(age, 3000)
 
+setTimeout(age, onclick)
 function age() {
   console.log("aging game")
-  setTimeout(age, 3000)
-}*/
+  setTimeout(age, onclick)
+}
