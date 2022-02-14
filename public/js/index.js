@@ -11,9 +11,8 @@ var app = document.getElementById("app")
 app.appendChild(anElement)
 
 
-
-setTimeout(age, onclick)
+/*setTimeout(age, 3000)
 function age() {
   console.log("aging game")
-  setTimeout(age, onclick)
-}
+  setTimeout(age, 3000)
+}*/
