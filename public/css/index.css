@@ -4,3 +4,10 @@ body{
 h1{
 color: rgb(13, 13, 14);
 }
+button{
+  background-color: rgb(111, 111, 202);
+}
+
+table, td {
+  border: 1px solid rgb(45, 117, 48);
+}
