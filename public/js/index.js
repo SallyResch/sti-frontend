@@ -7,8 +7,8 @@ function buttonClick() {
   anElement.outerHTML = "<strong>Sally</strong>"
 }
 
-var app = document.getElementById("app")
-app.appendChild(anElement)
+/*var app = document.getElementById("app")
+app.appendChild(anElement)*/
 
 
 /*setTimeout(age, 3000)
