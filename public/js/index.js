@@ -3,7 +3,7 @@ console.log("Hello World");
 /*var anElement = document.getElementById("app")
 anElement.innerHTML = "<button onClick='buttonClick()'>Click me</button>";*/
 
-/*function buttonClick() {
+function buttonClick() {
   var x = document.createElement("TABLE");
   x.setAttribute("id", "myTable");
   document.body.appendChild(x);
@@ -17,10 +17,13 @@ anElement.innerHTML = "<button onClick='buttonClick()'>Click me</button>";*/
   td.appendChild(tCell);
   document.getElementById("myTr").appendChild(td);
   //document.body.style.backgroundColor = "gray";
-}*/
+}
 
+/*
+Mikaels kod
+function (params) {
 
-//Mikaels kod
+}
 var ettElement = document.getElementById("app")
 
 var aTable = document.createElement("table")
@@ -42,6 +45,7 @@ function createCell() {
   var aCell = document.createElement("td")
   return aCell;
 }
+*/
 
 /* Delete function
 function buttonClick2() {
