@@ -3,7 +3,30 @@ console.log("Hello World");
 /*var anElement = document.getElementById("app")
 anElement.innerHTML = "<button onClick='buttonClick()'>Click me</button>";*/
 
-function buttonClick() {
+//Mikaels kod
+var ettElement = document.getElementById("app")
+
+var aTable = document.createElement("table")
+aTable.appendChild(createRow())
+
+ettElement.appendChild(aTable)
+
+function buttonClick2() {
+  aTable.appendChild(createRow())
+}
+
+function createRow() {
+  var aRow = document.createElement("tr")
+  aRow.appendChild(createCell())
+  return aRow
+}
+
+function createCell() {
+  var aCell = document.createElement("td")
+  //var aCell = document.createTextNode("New Cell")
+  return aCell;
+}
+/*function buttonClick() {
   var x = document.createElement("TABLE");
   x.setAttribute("id", "myTable");
   document.body.appendChild(x);
@@ -16,40 +39,7 @@ function buttonClick() {
   var tCell = document.createTextNode("newCell");
   td.appendChild(tCell);
   document.getElementById("myTr").appendChild(td);
-  //document.body.style.backgroundColor = "gray";
-}
-
-/*
-Mikaels kod
-function (params) {
-
-}
-var ettElement = document.getElementById("app")
-
-var aTable = document.createElement("table")
-aTable.appendChild(createRow())
-
-ettElement.appendChild(aTable)
-
-function buttonClick() {
-  aTable.appendChild(createRow())
-}
-
-function createRow() {
-  var aRow = document.createElement("tr")
-  aRow.appendChild(createCell())
-  return aRow
-}
-
-function createCell() {
-  var aCell = document.createElement("td")
-  return aCell;
-}
-*/
-
-/* Delete function
-function buttonClick2() {
-  document.getElementById("myTable").deleteRow(0);
+  document.body.style.backgroundColor = "lightgreen";
 }*/
 
 /*var app = document.getElementById("app")
@@ -70,8 +60,7 @@ function createCell() {
 }*/
 
 
-
-
+//Hur man sätter igång ett spel
 /*setTimeout(age, 3000)
 function age() {
   console.log("aging game")
