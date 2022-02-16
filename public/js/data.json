@@ -1,18 +1,18 @@
 [
   {
-    "name": "AIK",
-    "points": 9
+    "name": "Player 1",
+    "points": 25
   },
   {
-    "name": "DIF",
-    "points": 6
+    "name": "Player 2",
+    "points": 40
   },
   {
-    "name": "BP",
-    "points": 5
+    "name": "Player 3",
+    "points": 30
   },
   {
-    "name": "HSK",
-    "points": 3
+    "name": "Player 4",
+    "points": 20
   }
 ]

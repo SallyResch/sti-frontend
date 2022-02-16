@@ -1,7 +1,9 @@
-function age(params) {
+console.log("hello world")
+
+function age() {
   var xhr = new XMLHttpRequest()
   xhr.open("GET", "/js/data.json")
-  xhr.onload = function (params) {
+  xhr.onload = function () {
     var data = JSON.parse(this.response)
     createTable(data)
   }
