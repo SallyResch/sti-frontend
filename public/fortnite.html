@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fortnite tracker POGs</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">
+      <h4>Track player Stats</h4>
+      <br>
+      <div class="row no-gutters">
+        <div class="col-8">
+          <input type="text" class="form-control" placeholder="Gamertag" id="gammertag">
+        </div>
+        <div class="col-4">
+          <select class="custom-select" id="">
+            <option selected>Choose Platform</option>
+            <option value="pc">PC</option>
+            <option value="xbox">XBOX</option>
+            <option value="psn">PSN</option>
+          </select>
+        </div>
+      </div>
+      <br>
+      <button class="btn btn-primary" id="submit">Submit</button>
+    </div>
+    <div class="result">
+      <div class="stats text-center">
+        <h1>Loeya (PC)</h1>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="stat">
+              <h5>40</h5>
+              <h6>Wins</h6>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="stat">
+              <h5>500</h5>
+              <h6>Kills</h6>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="stat">
+              <h5>1000</h5>
+              <h6>Matches played</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Optional Javascript-->
+  <!--jQuert first, then popper, bootstrap JS-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="fortnite.js"></script>
+
+</body>
+
+</html>
