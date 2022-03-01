@@ -1,5 +1,3 @@
-const req = require("express/lib/response");
-
 let submitBtn = document.getElementById('submit');
 let gamertagInput = document.getElementById('gamertag');
 let platformInput = document.getElementById('platform');
@@ -8,7 +6,7 @@ let result = document.querySelector('.result');
 const fetchPlayers = async (gamertag, platform) => {
   const api_call = await fetch(`https://cors-anywhere.herokuapp.com/https://api.fortnitetracker.com/v1/profile/${platform}/${gamertag}`, {
     headers: {
-      'TRN-Api-Key': '14df28ad- d605 - 40b7- 87f8 - 5596a4cb0140'
+      'TRN-Api-Key': '14df28ad-d605-40b7-87f8-5596a4cb0140'
     }
   });
   const data = await api_call.json();
